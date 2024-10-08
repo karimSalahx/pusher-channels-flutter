@@ -50,3 +50,8 @@ dependencies {
     api 'com.pusher:pusher-java-client:2.+'
     api 'com.google.code.gson:gson:2.+'
 }
+configurations.all {
+    resolutionStrategy {
+        force 'androidx.core:core-ktx:1.6.0'
+    }
+}
